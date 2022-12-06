@@ -12,6 +12,6 @@ int seq_search(int list[], int key, int low, int high){
 int main(){
     int list[] = {3,6,2,6,2,3,9,7,1,5};
     
-    int indx = seq_search(list, 9, 0, sizeof(list)-1);
+    int indx = seq_search(list, 9, 0, sizeof(list)/sizeof(int)-1);
     printf("%d",indx);
 }
